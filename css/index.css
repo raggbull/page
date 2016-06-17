@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Roboto', Helvetica,serif;
-    font-size: 15px;
-     text-align: center;
+    font-family: 'Roboto', Helvetica,Sans-Serif;
+    font-size: 25px;
+    text-align: center;
 }
 
 
@@ -19,11 +19,18 @@ a {
 }
 
 #section {
-    width:350px;
+    width:550px;
     margin-left: auto;
     margin-right: auto;
     padding:10px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    border: 1px solid #C8C8C8;
+    margin-bottom: 20px;
+
+     }
+
+
+
 
 img {
     display: block;
@@ -51,19 +58,19 @@ img {
 }
 #face img {
     position: absolute;
-    top: 20px;
+    top: 60px;
     right: 250px;
     margin-bottom: 20px;
 }
 #insta img {
     position: absolute;
-    top: 30px;
+    top: 70px;
     right: 220px;
     margin-bottom: 20px;
 }
 
 #four {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
@@ -90,14 +97,16 @@ li a {
 }
 #teli {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 50px;
     right: 20px;
     margin-bottom: 20px
     color: black;
 }
+
 #roe {
     margin-top: 30px;
 }
+
 #cust {
     margin-top: 30px;
 }
@@ -107,10 +116,14 @@ li a {
 }
 
 .test {
-    width:  500px;
+    width:  600px;
     margin: 0 auto;
-    font-size: 14px;
+
 }
+
+}
+
+
 .by{
     margin-top: 20px;
 }
@@ -125,24 +138,34 @@ li a {
     padding: 20px;
 }
 .image {
-   position: relative;
-  margin: auto;
+    position: relative;
+    margin:auto;
+}
+.why {
+    color: white;
 
 }
 
 h2 {
-   position: absolute;
+
    margin: auto;
    right: 500px;
-   bottom: 10;
+   bottom: 15px;
 
 }
 h2 span {
+   display: block;
    color: white;
-   font-size: 24px;
+   font-size: 30px;
    font-style: bold;
    font: 'Roboto',Helvetica, Sans-Serif;
    background-color: grey;
+   margin-left: 26px;
+   margin-right: 26px;
+   text-align: center;
 
  padding: 10px;
 }
+
+}
+
