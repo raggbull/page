@@ -4,6 +4,7 @@
      text-align: center;
 }
 
+
 li {
 margin: 0 auto;
 display: inline-block;
@@ -105,6 +106,11 @@ li a {
 .test {
     width:  500px;
     margin: 0 auto;
+    font-size: 14px;
+}
+.by{
+    margin-top: 20px;
+}
 }
 .heart {
     display: block;
@@ -115,4 +121,3 @@ li a {
     display: inline;
     padding: 20px;
 }
-
